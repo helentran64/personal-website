@@ -12,4 +12,8 @@
   </nav>
 </template>
 <script setup></script>
-<style></style>
+<style scoped>
+nav {
+  display: flex;
+}
+</style>
