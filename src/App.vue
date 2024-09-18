@@ -8,6 +8,6 @@
 import Homepage from "@/views/Homepage.vue"
 import NavBar from "./components/NavBar.vue";
 </script>
-<style>
+<style scoped>
   
 </style>
