@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse" id="toggleMobileMenu">
             <ul class="navbar-nav ms-auto text-center">
               <li>
-                <a class="nav-link" href="#hello">About me</a>
+                <a class="nav-link" href="#">About me</a>
               </li>
               <li>
                 <a class="nav-link" href="#">Experiences</a>
@@ -48,7 +48,6 @@
     <section id="greeting">
       <h1>Welcome</h1>
       <p>HELEN TRAN</p>
-      <p><span class="auto-type"></span></p>
       <!--Arrow-->
       <a href="#">
         <div class="arrow">

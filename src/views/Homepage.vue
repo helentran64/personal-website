@@ -1,15 +1,4 @@
 <template>
-  <!-- <nav>
-    <ul>
-      Home
-    </ul>
-    <ul>
-      About
-    </ul>
-    <ul>
-      Experiences
-    </ul>
-  </nav> -->
   <div>
     <Navbar/>
   </div>
