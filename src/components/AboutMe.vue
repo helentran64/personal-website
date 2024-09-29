@@ -1,10 +1,19 @@
 <template>
   <h1>About Me</h1>
-  <p>
-    I am currently studying Computer Science at Toronto Metropolitan University
-    (formerly Ryerson University) I have great interest in full-stack web
-    development and software engineering.
-  </p>
+  <div class="centerItems">
+    <div><img src="../assets/images/app-development.png" alt="development"></div>
+    <div>
+      <p>
+        I am currently studying Computer Science at Toronto Metropolitan
+        University (formerly Ryerson University). I am also working as a 
+        full-stack developer @ RBC.
+      </p>
+    </div>
+  </div>
 </template>
 <script setup></script>
-<style scoped></style>
+<style scoped>
+.centerItems{
+  display: flex;
+}
+</style>
