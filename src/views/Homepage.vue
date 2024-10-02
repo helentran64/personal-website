@@ -5,7 +5,9 @@
   <div>
     <AboutMe />
   </div>
-  <div>Experiences</div>
+  <div>
+    <WorkExperiences />
+  </div>
   <div>Technologies</div>
   <div>Projects</div>
   <div>Contact</div>
@@ -13,6 +15,7 @@
 <script setup>
 import Navbar from "@/components/Navbar.vue";
 import AboutMe from "@/components/AboutMe.vue";
+import WorkExperiences from "@/components/WorkExperiences.vue";
 </script>
 <style scoped>
 nav {
