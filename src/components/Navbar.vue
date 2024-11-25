@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse" id="toggleMobileMenu">
             <ul class="navbar-nav ms-auto text-center">
               <li>
-                <a class="nav-link" href="#">About me</a>
+                <a class="nav-link" href="#">About Me</a>
               </li>
               <li>
                 <a class="nav-link" href="#">Experiences</a>
