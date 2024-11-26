@@ -3,7 +3,7 @@
     <Navbar/>
   </div>
   <div>Welcome</div>
-  <div>About me</div>
+  <div>About Me</div>
   <div>Experiences</div>
   <div>Technologies</div>
   <div>Projects</div>
