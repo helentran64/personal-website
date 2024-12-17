@@ -1,5 +1,5 @@
 <template>
-  <h1>About Me</h1>
+  <h1 class="subHeadings">About Me</h1>
   <div class="centerItems">
     <div>
       <img src="../assets/images/app-development.png" alt="development" />

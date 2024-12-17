@@ -10,3 +10,7 @@ h1 {
   text-align: center;
   font-family: "Orbitron", sans-serif;
 }
+
+.subHeadings {
+  font-size: 40px;
+}
