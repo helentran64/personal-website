@@ -11,6 +11,9 @@
   <div>Technologies</div>
   <div>Projects</div>
   <div>Contact</div>
+  <!-- <div class="tw-bg-blue-500 tw-text-black tw-text-center tw-p-4">
+    Tailwind CSS is working!
+  </div> -->
 </template>
 <script setup>
 import Navbar from "@/components/Navbar.vue";
