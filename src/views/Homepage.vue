@@ -8,6 +8,9 @@
   <div>
     <WorkExperiences />
   </div>
+  <div>Welcome</div>
+  <div>About Me</div>
+  <div>Experiences</div>
   <div>Technologies</div>
   <div>Projects</div>
   <div>Contact</div>
