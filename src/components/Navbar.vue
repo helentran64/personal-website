@@ -1,7 +1,7 @@
 <template>
-  <div class="welcomepic">
+  <div class="introWallpaper">
     <header>
-      <div class="container">
+      <div class="navBarSection">
         <nav class="navbar navbar-expand-sm navbar-dark">
           <a class="navbar-brand" href="#">
             <img
@@ -45,9 +45,9 @@
         </nav>
       </div>
     </header>
-    <section id="greeting">
-      <h1>Welcome</h1>
-      <p>HELEN TRAN</p>
+    <section id="introMessage">
+      <h1>Hi, I'm Helen</h1>
+      <p>[describe yourself here]</p>
       <!--Arrow-->
       <a href="#">
         <div class="arrow">
@@ -62,31 +62,39 @@
 <script setup>
 </script>
 <style scoped>
-.welcomepic {
+.navBarSection {
+  margin: 0 20px;
+}
+
+.introWallpaper {
   background-image: url(../assets/images/night-sky.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
 }
 
-#greeting h1 {
-  font-family: "Orbitron", sans-serif;
-  color: white;
-  font-size: 60px;
-  text-align: center;
-  padding-top: 130px;
-}
-
-#greeting {
+#introMessage {
   color: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 16pt;
   padding-bottom: 370px;
-  text-transform: uppercase;
 }
 
-#greeting :nth-child(3) {
+#introMessage h1 {
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  font-size: 60px;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 130px;
+}
+
+#introMessage p {
+  font-size: 18px;
+}
+
+#introMessage :nth-child(3) {
   letter-spacing: 10px;
   font-size: 14px;
 }
@@ -130,7 +138,7 @@
 
 /* ---- bigger screen ---- */
 @media screen and (min-width: 1664px){
-  .welcomepic {
+  .introWallpaper {
     background-image: url(../assets/images/night-sky-small.png);
   }
 }

@@ -1,7 +1,16 @@
 * {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.subHeadings {
+  font-size: 40px;
 }

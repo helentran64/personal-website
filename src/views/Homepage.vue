@@ -1,6 +1,12 @@
 <template>
   <div>
-    <Navbar/>
+    <Navbar />
+  </div>
+  <div>
+    <AboutMe />
+  </div>
+  <div>
+    <WorkExperiences />
   </div>
   <div>Welcome</div>
   <div>About Me</div>
@@ -10,7 +16,9 @@
   <div>Contact</div>
 </template>
 <script setup>
-import Navbar from "@/components/Navbar.vue"
+import Navbar from "@/components/Navbar.vue";
+import AboutMe from "@/components/AboutMe.vue";
+import WorkExperiences from "@/components/WorkExperiences.vue";
 </script>
 <style scoped>
 nav {
