@@ -20,7 +20,7 @@
         </h3>
         <time
           class="tw-block tw-mb-2 tw-text-sm tw-font-normal tw-leading-none tw-text-gray-400 tw-dark:text-gray-500"
-          >May 2024 - Dec 2024</time
+          >May 2024 - Present</time
         >
         <p
           class="tw-mb-4 tw-text-base tw-font-normal tw-text-gray-500 tw-dark:text-gray-400"
@@ -68,6 +68,27 @@
           class="tw-text-base tw-font-normal tw-text-gray-500 tw-dark:text-gray-400"
         >
           Toronto Metropolitan University
+        </p>
+      </li>
+      <li class="tw-mb-10 tw-ms-6">
+        <span
+          class="tw-absolute tw-flex tw-items-center tw-justify-center tw-w-6 tw-h-6 tw-bg-blue-100 tw-rounded-full tw--start-3 tw-ring-8 tw-ring-white tw-dark:ring-gray-900 tw-dark:bg-blue-900"
+        >
+          <!-- Add icon picture here -->
+        </span>
+        <h3
+          class="tw-mb-1 tw-text-lg tw-font-semibold tw-text-gray-900 tw-dark:text-white"
+        >
+          Software Developer
+        </h3>
+        <time
+          class="tw-block tw-mb-2 tw-text-sm tw-font-normal tw-leading-none tw-text-gray-400 tw-dark:text-gray-500"
+          >May 2021 - August 2021</time
+        >
+        <p
+          class="tw-text-base tw-font-normal tw-text-gray-500 tw-dark:text-gray-400"
+        >
+          Riipen
         </p>
       </li>
     </ol>
