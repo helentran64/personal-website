@@ -6,9 +6,28 @@
     </div>
     <div>
       <p>
-        I am currently studying Computer Science at Toronto Metropolitan
-        University (formerly Ryerson University). I am also working as a
-        full-stack developer @ RBC.
+        I've studied Computer Science at Toronto Metropolitan
+        University (formerly Ryerson University), and I am currently 
+        working as a full-stack developer @ RBC.
+      </p>
+      <p>
+        Here are some of the technologies I have worked with:
+        <ul>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Vue.js</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>MongoDB</li>
+          <li>MySQL</li>
+          <li>TypeORM</li>
+        </ul>
+      </p>
+      <p>
+        I am passionate about learning new technologies and
+        improving my skills. I am always looking for new challenges
+        and opportunities to grow as a developer.
       </p>
     </div>
   </div>

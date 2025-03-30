@@ -6,10 +6,10 @@
     >
       <li class="tw-mb-10 tw-ms-6">
         <span
-          class="tw-absolute tw-flex tw-items-center tw-justify-center tw-w-6 tw-h-6 tw-bg-blue-100 tw-rounded-full tw--start-3 tw-ring-8 tw-ring-white tw-dark:ring-gray-900 tw-dark:bg-blue-900"
+          class="tw-absolute tw-flex tw-items-center tw-justify-center tw-w-6 tw-h-6 tw-rounded-full tw--start-3 tw-ring-8 tw-ring-white tw-dark:ring-gray-900"
         >
           <svg
-            class="tw-w-3 tw-h-3 tw-text-blue-800 tw-dark:text-blue-300"
+            class="tw-w-6 tw-h-6 tw-text-blue-800 tw-dark:text-blue-300"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -41,10 +41,10 @@
       </li>
       <li class="tw-mb-10 tw-ms-6">
         <span
-          class="tw-absolute tw-flex tw-items-center tw-justify-center tw-w-6 tw-h-6 tw-bg-blue-100 tw-rounded-full tw--start-3 tw-ring-8 tw-ring-white tw-dark:ring-gray-900 tw-dark:bg-blue-900"
+          class="tw-absolute tw-flex tw-items-center tw-justify-center tw-w-6 tw-h-6 tw-rounded-full tw--start-3 tw-ring-8 tw-ring-white tw-dark:ring-gray-900"
         >
           <svg
-            class="tw-w-3 tw-h-3 tw-text-blue-800 tw-dark:text-blue-300"
+            class="tw-w-6 tw-h-6 tw-text-blue-800 tw-dark:text-blue-300"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -72,10 +72,10 @@
       </li>
       <li class="tw-mb-10 tw-ms-6">
         <span
-          class="tw-absolute tw-flex tw-items-center tw-justify-center tw-w-6 tw-h-6 tw-bg-blue-100 tw-rounded-full tw--start-3 tw-ring-8 tw-ring-white tw-dark:ring-gray-900 tw-dark:bg-blue-900"
+          class="tw-absolute tw-flex tw-items-center tw-justify-center tw-w-6 tw-h-6 tw-rounded-full tw--start-3 tw-ring-8 tw-ring-white tw-dark:ring-gray-900"
         >
           <svg
-            class="tw-w-3 tw-h-3 tw-text-blue-800 tw-dark:text-blue-300"
+            class="tw-w-6 tw-h-6 tw-text-blue-800 tw-dark:text-blue-300"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -103,10 +103,10 @@
       </li>
       <li class="tw-mb-10 tw-ms-6">
         <span
-          class="tw-absolute tw-flex tw-items-center tw-justify-center tw-w-6 tw-h-6 tw-bg-blue-100 tw-rounded-full tw--start-3 tw-ring-8 tw-ring-white tw-dark:ring-gray-900 tw-dark:bg-blue-900"
+          class="tw-absolute tw-flex tw-items-center tw-justify-center tw-w-6 tw-h-6 tw-rounded-full tw--start-3 tw-ring-8 tw-ring-white tw-dark:ring-gray-900"
         >
           <svg
-            class="tw-w-3 tw-h-3 tw-text-blue-800 tw-dark:text-blue-300"
+            class="tw-w-6 tw-h-6 tw-text-blue-800 tw-dark:text-blue-300"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -135,5 +135,3 @@
     </ol>
   </div>
 </template>
-<script setup></script>
-<style scoped></style>
