@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="navBarSection">
+    <div class="navBarSection tw-my-0 tw-mx-6">
       <nav class="navbar navbar-expand-sm navbar-dark">
         <a class="navbar-brand" href="#">
           <img
@@ -37,71 +37,11 @@
               <a class="nav-link" href="#">Projects</a>
             </li>
             <li>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#">Contact Me</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
   </header>
-  <section id="introMessage">
-    <h1 ref="textAnimation"></h1>
-    <p>
-      I'm a software developer driven by a passion for crafting seamless, <br />
-      high-impact applications
-    </p>
-  </section>
 </template>
-<script setup>
-import { onMounted, ref } from "vue";
-
-const text = "Hi, I'm Helen!";
-const textAnimationSpeed = 120;
-const textAnimation = ref(null);
-
-onMounted(() => {
-  let index = 0;
-  const interval = setInterval(() => {
-    if (index < text.length) {
-      textAnimation.value.innerHTML += text[index];
-      index++;
-    } else {
-      clearInterval(interval);
-    }
-  }, textAnimationSpeed);
-});
-</script>
-<style scoped>
-.navBarSection {
-  margin: 0 20px;
-}
-
-#introMessage {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 370px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#introMessage h1 {
-  font-family: "Orbitron", sans-serif;
-  font-size: 60px;
-  font-weight: 500;
-  text-align: center;
-  padding-top: 130px;
-}
-
-#introMessage p {
-  margin-top: 20px;
-  font-size: 22px;
-}
-
-#introMessage :nth-child(3) {
-  letter-spacing: 10px;
-  font-size: 14px;
-}
-</style>

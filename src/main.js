@@ -4,6 +4,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import "./assets/tailwind.css";
+import '@mdi/font/css/materialdesignicons.css';
 // Vuetify
 import "vuetify/styles";
 import { createVuetify } from "vuetify";
