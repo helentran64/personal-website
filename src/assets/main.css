@@ -1,16 +1,24 @@
 * {
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #151515;
+  color: #f9f9f9;
 }
 
 h1 {
   text-align: center;
-  font-family: "Orbitron", sans-serif;
 }
 
 .subHeadings {
   font-size: 40px;
+  text-align: left;
+}
+
+p, ul, li{
+  color: #9292a1;
+  font-size: 18px;
+  line-height: 2;
 }
