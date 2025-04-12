@@ -1,5 +1,5 @@
 <template>
-  <div id="navBarSection">
+  <div>
     <Navbar />
   </div>
   <div>
@@ -26,11 +26,3 @@ import WorkExperiences from "@/components/WorkExperiences.vue";
 import Projects from "@/components/Projects.vue";
 import ContactMe from "@/components/ContactMe.vue";
 </script>
-<style scoped>
-#navBarSection{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-</style>
