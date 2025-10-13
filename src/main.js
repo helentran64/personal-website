@@ -4,7 +4,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import "./assets/tailwind.css";
-import '@mdi/font/css/materialdesignicons.css';
+import "@mdi/font/css/materialdesignicons.css";
 // Vuetify
 import "vuetify/styles";
 import { createVuetify } from "vuetify";
@@ -27,5 +27,3 @@ const app = createApp(App);
 app.use(vuetify);
 app.use(router);
 app.mount("#app");
-
-console.log(vuetify.theme.global.name.value)
