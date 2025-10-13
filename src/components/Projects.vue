@@ -11,6 +11,13 @@
             </div>
           </template>
 
+          <template #subtitle>
+            <div class="tw-whitespace-normal tw-break-words">
+              {{ project.subtitle }}
+            </div>
+
+          </template>
+
           <template #text>
             <div class="tw-whitespace-normal tw-break-words">
               {{ project.description }}
@@ -32,22 +39,26 @@
 const projects = [
   {
     title: "Food Tracker",
-    description: "This is the project description",
+    subtitle: "Vue.js, Vuetify, TypeScript, HTML/CSS",
+    description: "Tracks your food intake and provides nutritional information",
     link: "https://github.com/helentran64/myWellness",
   },
   {
     title: "Flash Cards",
-    description: "This is the project description",
+    subtitle: "Vue.js, Vuetify, JavaScript, HTML/CSS",
+    description: "Help you study and memorize information for an upcoming test",
     link: "https://github.com/helentran64/flash-cards",
   },
   {
     title: "Finding Unfollowers",
-    description: "This is the project description",
+    subtitle: "JavaScript, HTML/CSS",
+    description: "App that finds who is not following you back on Instagram",
     link: "https://github.com/helentran64/myFollowers",
   },
   {
     title: "Movie Store",
-    description: "This is the project description",
+    subtitle: "Java",
+    description: "Online movie store system that allows users to browse and purchase movies",
     link: "https://github.com/helentran64/movie-store",
   },
 ];
