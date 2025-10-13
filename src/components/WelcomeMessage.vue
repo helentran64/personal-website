@@ -1,10 +1,13 @@
 <template>
-  <div id="introMessage">
+  <div
+    class="tw-h-[calc(100vh-64px)] tw-text-[45px] tw-ont-medium tw-text-center tw-flex tw-flex-col tw-justify-center tw-items-center tw-font-[Poppins]"
+  >
     <h1 ref="textAnimation"></h1>
-    <p class="tw-w-1/2 tw-mr-auto tw-ml-auto">
+    <p class="tw-w-1/2 tw-mr-auto tw-ml-auto tw-mt-5 tw-text-[20px]">
       I am a full-stack developer who specializes in building seamless,
       high-impact applications that deliver real results
     </p>
+    <v-btn style="text-transform: none; margin: 20px;" @click="sendEmail" prepend-icon="mdi-email" color="primary">Say hi!</v-btn>
   </div>
 </template>
 <script setup>
@@ -25,31 +28,8 @@ onMounted(() => {
     }
   }, textAnimationSpeed);
 });
+
+const sendEmail = () => {
+  window.location.href = "mailto:helentran64@gmail.com";
+};
 </script>
-<style scoped>
-#introMessage {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#introMessage h1 {
-  font-size: 45px;
-  font-weight: 500;
-  text-align: center;
-  padding-top: 130px;
-}
-
-#introMessage p {
-  margin-top: 20px;
-  font-size: 20px;
-}
-
-#introMessage :nth-child(3) {
-  letter-spacing: 10px;
-  font-size: 14px;
-}
-</style>
