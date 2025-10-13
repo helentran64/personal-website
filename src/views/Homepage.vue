@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="navBarSection tw-my-0 tw-mx-6">
+    <div class="tw-my-0 tw-mx-6">
       <nav class="navbar navbar-expand-sm navbar-dark">
         <a class="navbar-brand" href="#home">
           <img
@@ -38,7 +38,7 @@
   <section
     id="home"
     ref="welcomeRef"
-    class="tw-h-screen tw-flex tw-justify-center tw-items-center"
+    class="tw-h-[calc(100vh-70px)] tw-flex tw-justify-center tw-items-center"
   >
     <WelcomeMessage />
   </section>
@@ -66,6 +66,8 @@
   >
     <Projects />
   </section>
+
+  <ActionButton />
 </template>
 
 <script setup>
@@ -73,6 +75,7 @@ import WelcomeMessage from "@/components/WelcomeMessage.vue";
 import AboutMe from "@/components/AboutMe.vue";
 import WorkExperiences from "@/components/WorkExperiences.vue";
 import Projects from "@/components/Projects.vue";
+import ActionButton from "@/components/ActionButton.vue";
 
 import { useFadeUp } from "@/composables/useFadeUp";
 
@@ -86,12 +89,6 @@ const projectsRef = useFadeUp();
 <style>
 html {
   scroll-behavior: smooth;
-}
-
-.navBarSection {
-  position: sticky;
-  top: 0;
-  z-index: 50;
 }
 
 .nav-link {
