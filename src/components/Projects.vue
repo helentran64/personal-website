@@ -1,33 +1,30 @@
 <template>
-  <div class="tw-w-[80%] tw-mx-auto">
+  <div>
     <h1 class="subHeadings">Projects</h1>
-    <br>
+    <br />
     <v-row>
-  <v-col
-    v-for="project in projects"
-    :key="project.title"
-    cols="12"
-    md="4"
-  >
-    <v-card
-      prepend-icon="mdi-folder"
-      :title="project.title"
-      :text="project.description"
-    >
-      <template #append>
-        <v-btn
-          :href="project.link"
-          target="_blank"
-          variant="text"
-          icon
-        >
-          <v-icon>mdi-github</v-icon>
-        </v-btn>
-      </template>
-    </v-card>
-  </v-col>
-</v-row>
+      <v-col v-for="project in projects" :key="project.title" cols="12" lg="6">
+        <v-card class="tw-overflow-hidden" color="#4527A0" variant="elevated">
+          <template #title>
+            <div class="tw-whitespace-normal tw-break-words">
+              {{ project.title }}
+            </div>
+          </template>
 
+          <template #text>
+            <div class="tw-whitespace-normal tw-break-words">
+              {{ project.description }}
+            </div>
+          </template>
+
+          <template #append>
+            <v-btn :href="project.link" target="_blank" variant="text" icon>
+              <v-icon>mdi-github</v-icon>
+            </v-btn>
+          </template>
+        </v-card>
+      </v-col>
+    </v-row>
   </div>
 </template>
 
@@ -47,6 +44,11 @@ const projects = [
     title: "Finding Unfollowers",
     description: "This is the project description",
     link: "https://github.com/helentran64/myFollowers",
+  },
+  {
+    title: "Movie Store",
+    description: "This is the project description",
+    link: "https://github.com/helentran64/movie-store",
   },
 ];
 </script>

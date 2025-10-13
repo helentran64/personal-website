@@ -10,15 +10,15 @@
           v-bind="activatorProps"
           size="small"
           icon="mdi-plus"
-          color="primary"
+          color="indigo"
         >
           <v-icon>{{ open ? "mdi-close" : "mdi-menu-up" }}</v-icon>
         </v-fab>
       </template>
 
-      <v-btn key="1" icon="mdi-github"></v-btn>
-      <v-btn key="2" icon="mdi-linkedin"></v-btn>
-      <v-btn key="4" icon="mdi-play"></v-btn>
+      <v-btn key="1" icon="mdi-github" color="purple"></v-btn>
+      <v-btn key="2" icon="mdi-linkedin" color="blue"></v-btn>
+      <v-btn key="4" icon="mdi-play" color="green"></v-btn>
     </v-speed-dial>
   </div>
 </template>

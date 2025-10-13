@@ -1,13 +1,45 @@
 <template>
   <div
-    class="tw-text-[45px] tw-ont-medium tw-text-center tw-flex tw-flex-col tw-justify-center tw-items-center tw-font-[Poppins]"
+    class="tw-text-[45px] tw-font-medium tw-text-left tw-flex tw-flex-col tw-justify-center tw-items-start tw-font-[Poppins]"
   >
-    <h1 ref="textAnimation"></h1>
-    <p class="tw-w-1/2 tw-mr-auto tw-ml-auto tw-mt-5 tw-text-[20px]">
+    <img
+      src="../assets/images/IMG_3724.JPG"
+      alt="profile"
+      class="tw-w-16 tw-h-16 tw-rounded-full"
+    />
+    <h1 ref="textAnimation" class="tw-pt-5"></h1>
+    <p class="tw-mt-5 tw-text-[20px]">
       I am a full-stack developer who specializes in building seamless,
       high-impact applications that deliver real results
     </p>
-    <v-btn variant="outlined" style="text-transform: none; margin: 20px;" @click="sendEmail" prepend-icon="mdi-email" color="primary">Say hi!</v-btn>
+    <v-row>
+      <v-col>
+        <v-btn
+          variant="outlined"
+          class="tw-mt-5"
+          style="text-transform: none"
+          @click="sendEmail"
+          prepend-icon="mdi-email"
+          color="primary"
+        >
+          Say hi!
+        </v-btn>
+      </v-col>
+
+      <v-col>
+        <v-btn
+          variant="outlined"
+          class="tw-mt-5"
+          style="text-transform: none"
+          href="../assets/Helen_Tran_Resume.pdf"
+          target="_blank"
+          prepend-icon="mdi-file-pdf-box"
+          color="green"
+        >
+          Checkout my resume
+        </v-btn>
+      </v-col>
+    </v-row>
   </div>
 </template>
 <script setup>
