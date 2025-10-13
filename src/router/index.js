@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Homepage from "@/views/Homepage.vue";
 
 const router = createRouter({
-  history: createWebHistory("/personal-website/"),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: "/",
