@@ -9,6 +9,16 @@ const router = createRouter({
       name: "home",
       component: Homepage,
     },
+    {
+      path: "/work-experiences",
+      name: "work-experiences",
+      component: () => import('../views/WorkPage.vue'),
+    },
+    {
+      path: "/contact-me",
+      name: "contact-me",
+      component: () => import('../views/ContactPage.vue'),
+    }
   ],
 });
 

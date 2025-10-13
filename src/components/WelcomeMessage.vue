@@ -12,34 +12,16 @@
       I am a full-stack developer who specializes in building seamless,
       high-impact applications that deliver real results
     </p>
-    <v-row>
-      <v-col>
-        <v-btn
-          variant="outlined"
-          class="tw-mt-5"
-          style="text-transform: none"
-          @click="sendEmail"
-          prepend-icon="mdi-email"
-          color="primary"
-        >
-          Say hi!
-        </v-btn>
-      </v-col>
-
-      <v-col>
-        <v-btn
-          variant="outlined"
-          class="tw-mt-5"
-          style="text-transform: none"
-          href="../assets/Helen_Tran_Resume.pdf"
-          target="_blank"
-          prepend-icon="mdi-file-pdf-box"
-          color="indigo"
-        >
-          Checkout my resume
-        </v-btn>
-      </v-col>
-    </v-row>
+    <v-btn
+      variant="outlined"
+      class="tw-mt-5"
+      style="text-transform: none"
+      @click="sendEmail"
+      prepend-icon="mdi-email"
+      color="primary"
+    >
+      Say hi!
+    </v-btn>
   </div>
 </template>
 <script setup>
