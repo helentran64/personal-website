@@ -14,17 +14,18 @@
           Here are some of the technologies I have worked with:
           <div class="tw-flex">
             <ul class="tw-mr-10">
-              <li><v-icon class="menu-right-outline-icon">mdi-menu-right-outline</v-icon>JavaScript</li>
-              <li><v-icon class="menu-right-outline-icon">mdi-menu-right-outline</v-icon>TypeScript</li>
-              <li><v-icon class="menu-right-outline-icon">mdi-menu-right-outline</v-icon>Vue.js</li>
-              <li><v-icon class="menu-right-outline-icon">mdi-menu-right-outline</v-icon>React.js</li>
-              <li><v-icon class="menu-right-outline-icon">mdi-menu-right-outline</v-icon>Node.js</li>
+              <li><v-icon>mdi-menu-right-outline</v-icon>JavaScript</li>
+              <li><v-icon>mdi-menu-right-outline</v-icon>TypeScript</li>
+              <li><v-icon>mdi-menu-right-outline</v-icon>Vue.js</li>
+              <li><v-icon>mdi-menu-right-outline</v-icon>React.js</li>
+              <li><v-icon>mdi-menu-right-outline</v-icon>Node.js</li>
             </ul>
             <ul>
-              <li><v-icon class="menu-right-outline-icon">mdi-menu-right-outline</v-icon>Express.js</li>
-              <li><v-icon class="menu-right-outline-icon">mdi-menu-right-outline</v-icon>MongoDB</li>
-              <li><v-icon class="menu-right-outline-icon">mdi-menu-right-outline</v-icon>MySQL</li>
-              <li><v-icon class="menu-right-outline-icon">mdi-menu-right-outline</v-icon>TypeORM</li>
+              <li><v-icon>mdi-menu-right-outline</v-icon>Express.js</li>
+              <li><v-icon>mdi-menu-right-outline</v-icon>MongoDB</li>
+              <li><v-icon>mdi-menu-right-outline</v-icon>MySQL</li>
+              <li><v-icon>mdi-menu-right-outline</v-icon>TypeORM</li>
+              <li><v-icon>mdi-menu-right-outline</v-icon>Git</li>
             </ul>
           </div>
         </p>
@@ -48,8 +49,5 @@
 <style scoped>
 .centerItems {
   display: flex;
-}
-.menu-right-outline-icon {
-  color: #9292a1;
 }
 </style>

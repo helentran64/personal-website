@@ -4,8 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #151515;
-  color: #f9f9f9;
 }
 
 h1 {
@@ -18,7 +16,6 @@ h1 {
 }
 
 p, ul, li{
-  color: #9292a1;
   font-size: 18px;
   line-height: 2;
 }
