@@ -1,5 +1,5 @@
 <template>
-  <div class="tw-w-1/2 tw-mr-auto tw-ml-auto tw-py-20">
+  <div class="tw-w-[80%] tw-mr-auto tw-ml-auto tw-py-20">
     <div class="centerItems tw-flex tw-items-center tw-gap-10">
       
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="tw-w-1/2 tw-mx-auto">
+  <div class="tw-w-[80%] tw-mx-auto">
     <h1 class="subHeadings">Work Experiences</h1>
     <v-timeline align="start" line-color="#9292a1" line-thickness="0.2">
       <v-timeline-item
