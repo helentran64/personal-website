@@ -3,7 +3,7 @@
     class="tw-text-[45px] tw-font-medium tw-text-left tw-flex tw-flex-col tw-justify-center tw-items-start tw-font-[Poppins]"
   >
     <img
-      src="../assets/images/IMG_3724.JPG"
+      src="../assets/images/IMG_3724.png"
       alt="profile"
       class="tw-w-16 tw-h-16 tw-rounded-full"
     />
