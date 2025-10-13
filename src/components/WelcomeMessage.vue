@@ -34,7 +34,7 @@
           href="../assets/Helen_Tran_Resume.pdf"
           target="_blank"
           prepend-icon="mdi-file-pdf-box"
-          color="green"
+          color="indigo"
         >
           Checkout my resume
         </v-btn>

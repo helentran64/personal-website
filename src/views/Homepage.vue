@@ -38,10 +38,6 @@
         <AboutMe />
       </section>
 
-      <section class="tw-w-[80%] tw-mx-auto tw-my-[50px]">
-        <TechStack />
-      </section>
-
       <section id="experiences" ref="workRef" class="tw-w-[80%] tw-mx-auto tw-my-[50px]">
         <WorkExperiences />
       </section>
@@ -49,7 +45,7 @@
       <section id="projects" ref="projectsRef" class="tw-w-[80%] tw-mx-auto tw-my-[50px]">
         <Projects />
       </section>
-      <footer class="tw-text-center tw-pt-20 tw-pb-10 tw-text-gray-500 tw-my-[50px]">
+      <footer class="tw-text-center tw-pt-20 tw-pb-10 tw-text-gray-500 tw-mt-[50px]">
         &copy; 2025 Helen Tran. All rights reserved.
       </footer>
     </v-col>
@@ -65,7 +61,6 @@ import WorkExperiences from "@/components/WorkExperiences.vue";
 import Projects from "@/components/Projects.vue";
 import ActionButton from "@/components/ActionButton.vue";
 import { useFadeUp } from "@/composables/useFadeUp";
-import TechStack from "@/components/TechStack.vue";
 
 const welcomeRef = useFadeUp();
 const aboutRef = useFadeUp();
