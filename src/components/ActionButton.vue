@@ -16,8 +16,18 @@
         </v-fab>
       </template>
 
-      <v-btn key="1" icon="mdi-github" color="purple" href="https://github.com/helentran64"></v-btn>
-      <v-btn key="2" icon="mdi-linkedin" color="blue" href="https://www.linkedin.com/in/helentran64/"></v-btn>
+      <v-btn
+        key="1"
+        icon="mdi-github"
+        color="purple"
+        href="https://github.com/helentran64"
+      ></v-btn>
+      <v-btn
+        key="2"
+        icon="mdi-linkedin"
+        color="blue"
+        href="https://www.linkedin.com/in/helentran64/"
+      ></v-btn>
       <!-- <v-btn key="4" icon="mdi-play" color="green"></v-btn> -->
     </v-speed-dial>
   </div>
