@@ -13,8 +13,7 @@
 
     <h1 class="subHeadings">Work Experiences</h1>
     <v-timeline
-      align="start"
-      line-color="#9292a1"
+      line-color="gray-700"
       line-thickness="0.2"
       side="end"
       class="tw-my-10"
