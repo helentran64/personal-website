@@ -2,7 +2,7 @@
   <v-row>
     <v-col cols="2"></v-col>
     <v-col cols="9">
-      <div class="tw-w-[80%] tw-mx-auto tw-my-[50px]" ref="contactRef">
+      <div class="tw-w-[80%] tw-mx-auto tw-my-[50px]">
         <h1 class="subHeadings">Say Hi 👋🏼</h1>
         <p class="tw-text-[20px]">
           Feel free to send me a message, and I'll get back to you as soon as
@@ -53,14 +53,10 @@
 
 <script setup>
 import { ref } from "vue";
-import { useFadeUp } from "@/composables/useFadeUp";
 import emailjs from "@emailjs/browser";
 const serviceID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const templateID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
 const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
-
-// Fade-up animation (optional)
-const contactRef = useFadeUp();
 
 // Form fields
 const firstName = ref("");
