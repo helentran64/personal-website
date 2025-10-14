@@ -61,7 +61,7 @@
         <!-- Text Slot -->
         <template #text>
           <p class="tw-text-white">
-            Mastered the entire modern back-end stack: Node, Javascript,
+            Mastered the entire modern back-end stack: Node, TypeScript,
             Express, MongoDB and Mongoose (MongoDB JS driver)
           </p>
         </template>
