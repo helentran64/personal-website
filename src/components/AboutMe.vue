@@ -54,7 +54,7 @@
           <div
             class="tw-font-semibold tw-text-lg tw-whitespace-nowrap tw-overflow-visible tw-text-white"
           >
-            Licenses & Certifications
+            Certifications
           </div>
         </template>
 
