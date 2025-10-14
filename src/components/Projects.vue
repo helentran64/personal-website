@@ -4,29 +4,29 @@
     <br />
     <v-row>
       <v-col v-for="project in projects" :key="project.title" cols="12" lg="6">
-        <v-card class="tw-overflow-hidden" color="#4527A0" variant="elevated">
+        <v-card class="tw-overflow-hidden tw-text-white" color="indigo" variant="tonal" >
           <template #title>
-            <div class="tw-whitespace-normal tw-break-words">
+            <div class="tw-whitespace-normal tw-break-words tw-text-white">
               {{ project.title }}
             </div>
           </template>
 
           <template #subtitle>
-            <div class="tw-whitespace-normal tw-break-words">
+            <div class="tw-whitespace-normal tw-break-words tw-text-white">
               {{ project.subtitle }}
             </div>
 
           </template>
 
           <template #text>
-            <div class="tw-whitespace-normal tw-break-words">
+            <div class="tw-whitespace-normal tw-break-words tw-text-white">
               {{ project.description }}
             </div>
           </template>
 
           <template #append>
             <v-btn :href="project.link" target="_blank" variant="text" icon>
-              <v-icon>mdi-github</v-icon>
+              <v-icon class="tw-text-white">mdi-github</v-icon>
             </v-btn>
           </template>
         </v-card>

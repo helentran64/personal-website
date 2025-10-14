@@ -1,12 +1,16 @@
 <template>
   <div>
     <h1 class="subHeadings">Career</h1>
-    <div class="tw-my-6 tw-rounded-lg tw-bg-indigo-600 tw-p-4 tw-shadow-md">
-      <p class="tw-my-3 tw-text-[15px] tw-text-white">
-        In my role as a Software Developer, I have a wide range of
-        responsibilities that are critical to creating and maintaining an
-        exceptional digital experience for users.
-      </p>
+    <div class="tw-my-6">
+      <v-card variant="tonal" color="indigo">
+        <template #text>
+          <p class="tw-my-3 tw-text-[15px] tw-text-white">
+            In my role as a Software Developer, I have a wide range of
+            responsibilities that are critical to creating and maintaining an
+            exceptional digital experience for users.
+          </p>
+        </template>
+      </v-card>
     </div>
 
     <h1 class="subHeadings">Work Experiences</h1>
@@ -18,22 +22,26 @@
           class="tw-flex tw-gap-4 tw-mb-8 tw-relative"
         >
           <!-- Icon with line container -->
-          <div class="tw-relative tw-flex tw-flex-col tw-items-center tw-w-11 sm:tw-w-14 tw-flex-shrink-0">
+          <div
+            class="tw-relative tw-flex tw-flex-col tw-items-center tw-w-11 sm:tw-w-14 tw-flex-shrink-0"
+          >
             <!-- Icon -->
-            <div class="tw-w-11 tw-h-11 sm:tw-w-14 sm:tw-h-14 tw-rounded-full tw-border-4 tw-border-gray-700 tw-bg-gray-700 tw-shadow-lg tw-overflow-hidden tw-relative tw-z-10">
+            <div
+              class="tw-w-11 tw-h-11 sm:tw-w-14 sm:tw-h-14 tw-rounded-full tw-shadow-lg tw-overflow-hidden tw-relative tw-z-10"
+            >
               <img
                 :src="job.companyLogo"
                 alt="Company Logo"
                 class="tw-w-full tw-h-full tw-object-cover"
               />
             </div>
-            
-            <div 
+
+            <div
               v-if="i < jobs.length - 1"
               class="tw-absolute tw-w-[2px] tw-bg-gray-700 tw-left-1/2 tw--translate-x-1/2"
               :style="{ top: '44px', height: 'calc(100% + 32px)' }"
             ></div>
-            <div 
+            <div
               v-else
               class="tw-absolute tw-w-[2px] tw-bg-gray-700 tw-left-1/2 tw--translate-x-1/2 tw-top-11 sm:tw-top-14 tw-bottom-0"
             ></div>
@@ -45,17 +53,29 @@
             <div class="tw-text-sm tw-text-gray-300 tw-mb-2">
               {{ job.dateWorked }}
             </div>
-            <p class="tw-text-[10px] sm:tw-text-[15px] tw-text-gray-300 tw-leading-relaxed">
+            <p
+              class="tw-text-[10px] sm:tw-text-[15px] tw-text-gray-300 tw-leading-relaxed"
+            >
               {{ job.description }}
             </p>
           </div>
         </div>
       </div>
     </div>
+    <h1 class="subHeadings">Let's Connect</h1>
+    <p>
+      I'm currently taking on freelance projects, and I'm always open to hearing
+      about potential opportunities and exploring whether they would be a good
+      fit for collaboration. Let's
+      <RouterLink to="/contact-me" class="tw-text-blue-500">connect</RouterLink>
+      and see how we can work together to create impactful and user-centered
+      designs.
+    </p>
   </div>
 </template>
 
 <script setup>
+import { RouterLink } from "vue-router";
 const jobs = [
   {
     jobTitle: "Software Developer",
@@ -87,3 +107,13 @@ const jobs = [
   },
 ];
 </script>
+<style scoped>
+.router-link {
+  color: #1e88e5;
+  text-decoration: none;
+}
+
+.router-link:hover {
+  color: #1e88e5;
+}
+</style>

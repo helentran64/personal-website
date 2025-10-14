@@ -13,7 +13,7 @@
       high-impact applications that deliver real results
     </p>
     <v-btn
-      variant="outlined"
+      variant="tonal"
       class="tw-mt-5"
       style="text-transform: none"
       @click="sendEmail"

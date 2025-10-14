@@ -38,11 +38,73 @@
 
     <!-- Image Section -->
     <v-col cols="12" md="5">
-    <img
-      src="../assets/images/app-development.png"
-      alt="development"
-      class="tw-w-full tw-max-w-[300px] tw-h-auto"
-    />
+      <img
+        src="../assets/images/app-development.png"
+        alt="development"
+        class="tw-w-full tw-max-w-[300px] tw-h-auto tw-mx-auto"
+      />
+    </v-col>
+  </v-row>
+
+<v-row>
+    <v-col cols="12" md="4">
+      <v-card class="h-100" style="position: relative; padding-bottom: 220px;" color="blue-grey-darken-4" variant="tonal">
+        <!-- Title Slot -->
+        <template #title>
+          <div
+            class="tw-font-semibold tw-text-lg tw-whitespace-nowrap tw-overflow-visible tw-text-white"
+          >
+            Licenses & Certifications
+          </div>
+        </template>
+
+        <!-- Text Slot -->
+        <template #text>
+          <p class="tw-text-white">
+            Mastered the entire modern back-end stack: Node, Javascript,
+            Express, MongoDB and Mongoose (MongoDB JS driver)
+          </p>
+        </template>
+
+        <!-- Image -->
+        <img
+          src="../assets/images/guarantee.png"
+          alt="guarantee image"
+          class="tw-max-w-[200px] tw-h-auto tw-mx-auto"
+          style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);"
+        />
+      </v-card>
+    </v-col>
+
+    <v-col cols="12" md="8">
+      <v-card class="h-100" style="position: relative; padding-bottom: 220px;" color="blue-grey-darken-4" variant="tonal">
+        <!-- Title Slot -->
+        <template #title>
+          <div
+            class="tw-font-semibold tw-text-lg tw-whitespace-nowrap tw-overflow-visible tw-text-white"
+          >
+            Lifelong Learner
+          </div>
+        </template>
+
+        <!-- Text Slot -->
+        <template #text>
+          <p class="tw-text-white">
+            I believe in defining myself by the work I aspire to do. I'm all
+            about embracing the learning process, constantly pushing my limits,
+            and diving into exciting ventures that truly make a difference. It's
+            all about doing interesting stuff that matters.
+          </p>
+        </template>
+
+        <!-- Image -->
+        <img
+          src="../assets/images/computer.png"
+          alt="computer image"
+          class="tw-max-w-[200px] tw-h-auto tw-mx-auto"
+          style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);"
+        />
+      </v-card>
     </v-col>
   </v-row>
 </template>
