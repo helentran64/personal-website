@@ -1,47 +1,57 @@
 <template>
   <div>
     <h1 class="subHeadings">Career</h1>
-    <v-card class="tw-my-6" color="indigo">
-      <template #text>
-        <p class="tw-my-3 tw-text-[15px]">
-          In my role as a Software Developer, I have a wide range of
-          responsibilities that are critical to creating and maintaining an
-          exceptional digital experience for users.
-        </p>
-      </template>
-    </v-card>
+    <div class="tw-my-6 tw-rounded-lg tw-bg-indigo-600 tw-p-4 tw-shadow-md">
+      <p class="tw-my-3 tw-text-[15px] tw-text-white">
+        In my role as a Software Developer, I have a wide range of
+        responsibilities that are critical to creating and maintaining an
+        exceptional digital experience for users.
+      </p>
+    </div>
 
     <h1 class="subHeadings">Work Experiences</h1>
-    <v-timeline
-      line-color="gray-700"
-      line-thickness="0.2"
-      side="end"
-      class="tw-my-10"
-    >
-      <v-timeline-item
-        v-for="(job, i) in jobs"
-        :key="i"
-        size="x-large"
-        dot-filled="false"
-      >
-        <template v-slot:icon>
-          <img
-            :src="job.companyLogo"
-            alt="Company Logo"
-            class="tw-w-11 tw-h-11 tw-rounded-full"
-          />
-        </template>
-
-        <!-- Main content: everything on the same side -->
-        <div class="tw-ml-4">
-          <h2 class="tw-font-bold tw-text-lg">{{ job.jobTitle }}</h2>
-          <div class="tw-text-sm tw-text-gray-500 mb-1">
-            {{ job.dateWorked }}
+    <div class="tw-my-10">
+      <div class="tw-relative tw-max-w-full">
+        <div
+          v-for="(job, i) in jobs"
+          :key="i"
+          class="tw-flex tw-gap-4 tw-mb-8 tw-relative"
+        >
+          <!-- Icon with line container -->
+          <div class="tw-relative tw-flex tw-flex-col tw-items-center tw-w-11 sm:tw-w-14 tw-flex-shrink-0">
+            <!-- Icon -->
+            <div class="tw-w-11 tw-h-11 sm:tw-w-14 sm:tw-h-14 tw-rounded-full tw-border-4 tw-border-gray-700 tw-bg-gray-700 tw-shadow-lg tw-overflow-hidden tw-relative tw-z-10">
+              <img
+                :src="job.companyLogo"
+                alt="Company Logo"
+                class="tw-w-full tw-h-full tw-object-cover"
+              />
+            </div>
+            
+            <div 
+              v-if="i < jobs.length - 1"
+              class="tw-absolute tw-w-[2px] tw-bg-gray-700 tw-left-1/2 tw--translate-x-1/2"
+              :style="{ top: '44px', height: 'calc(100% + 32px)' }"
+            ></div>
+            <div 
+              v-else
+              class="tw-absolute tw-w-[2px] tw-bg-gray-700 tw-left-1/2 tw--translate-x-1/2 tw-top-11 sm:tw-top-14 tw-bottom-0"
+            ></div>
           </div>
-          <p class="tw-text-[10px] sm:tw-text-[15px]">{{ job.description }}</p>
+
+          <!-- Content -->
+          <div class="tw-flex-1 tw-min-w-0">
+            <h2 class="tw-font-bold tw-text-lg">{{ job.jobTitle }}</h2>
+            <div class="tw-text-sm tw-text-gray-300 tw-mb-2">
+              {{ job.dateWorked }}
+            </div>
+            <p class="tw-text-[10px] sm:tw-text-[15px] tw-text-gray-300 tw-leading-relaxed">
+              {{ job.description }}
+            </p>
+          </div>
         </div>
-      </v-timeline-item>
-    </v-timeline>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -73,7 +83,7 @@ const jobs = [
     dateWorked: "May 2021 - August 2021",
     companyLogo: new URL("../assets/images/riipen.png", import.meta.url).href,
     description:
-      "Formulated an interactive website for a start-up company from scratch using HTML, CSS, and JavaScript to establish online marketing and amplify the organization’s credibility. •	Tested and debugged customer support contact channels, which solved over 50 client inquiries and significantly improved web functionality that generated a 7% increase in customer retention",
+      "Formulated an interactive website for a start-up company from scratch using HTML, CSS, and JavaScript to establish online marketing and amplify the organization's credibility. •	Tested and debugged customer support contact channels, which solved over 50 client inquiries and significantly improved web functionality that generated a 7% increase in customer retention",
   },
 ];
 </script>
